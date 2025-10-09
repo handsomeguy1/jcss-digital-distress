@@ -1,0 +1,5 @@
+data_raw: data/raw/social_media_mental_health.csv
+data_clean: outputs/derived/clean.csv
+tables_dir: outputs/tables
+figures_dir: outputs/figures
+metrics_dir: outputs/metrics

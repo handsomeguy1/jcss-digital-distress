@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you use this code, please cite it.
+title: "JCSS Digital Distress Reproducible Pipeline"
+authors:
+  - family-names: Shakir
+    given-names: Shuja
+version: 1.0.0
+date-released: 2025-10-09

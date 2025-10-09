@@ -1,0 +1,14 @@
+{
+  "cv_R2": 0.3008621125751389,
+  "oob": 0.30962364756478156,
+  "features": [
+    "interest_fluctuation",
+    "comparison_frequency",
+    "sleep_issues",
+    "distractibility_scale",
+    "difficulty_concentrating",
+    "seeks_validation"
+  ],
+  "commit": "NA",
+  "generated_at": "2025-10-09T12:27:55.336674Z"
+}

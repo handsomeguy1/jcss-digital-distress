@@ -1,0 +1,14 @@
+name: jcss-distress
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - scikit-learn=1.5
+  - statsmodels=0.14
+  - matplotlib=3.8
+  - scipy=1.11
+  - pyyaml
+  - pip
+  - pip:
+      - joblib
