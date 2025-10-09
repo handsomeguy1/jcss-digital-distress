@@ -1,7 +1,7 @@
 # JCSS Digital Distress — Reproducible Pipeline
 Digital Distress in the Attention Economy: A Dual-Model Analysis
 Shakir, S. (2025).
-This repository reproduces the analyses for the paper *Modeling the Behavioral Dynamics of Digital Distress*.
+This repository contains the complete data, code, and documentation to reproduce all analyses and figures for the paper, "A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy".
 
 ## Overview
 This repository contains all materials required to reproduce the analyses reported in
