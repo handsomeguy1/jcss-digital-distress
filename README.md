@@ -60,5 +60,15 @@ The OLS model identifies key linear predictors of depressive affect; the Random 
   doi       = {10.xxxx/zenodo.xxxxxx}
 }
 
-Code: MIT. Data: follow the Kaggle dataset license.
-Cite using `CITATION.cff`.
+Future Work
+** Extend framework to longitudinal and cross-cultural datasets.
+** Integrate causal inference and network analysis modules.
+** Explore transfer learning for digital well-being prediction across platforms.
+
+License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+Contact
+Shuja Shakir
+Department of Political Science, Maharashtra, India
+📧 head.politicalsci@bamu.ac.in
