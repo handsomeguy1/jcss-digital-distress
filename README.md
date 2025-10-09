@@ -71,4 +71,4 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 Contact
 Shuja Shakir
 Department of Political Science, Maharashtra, India
-📧 head.politicalsci@bamu.ac.in
+📧 shujashakir@gmail.com
