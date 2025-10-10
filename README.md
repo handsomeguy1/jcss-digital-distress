@@ -2,6 +2,7 @@
 Digital Distress in the Attention Economy: A Dual-Model Analysis
 Shakir, S. (2025).
 This repository contains the complete data, code, and documentation to reproduce all analyses and figures for the paper, "A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy". All model parameters and validation metrics were obtained from out-of-sample and out-of-bag evaluations using fixed random seeds to ensure reproducibility. No manual optimization or selective reporting was performed.
+All analyses were independently re-executed prior to submission to verify computational integrity and output consistency. Cross-validation, bootstrap estimation, and random forest evaluations were rerun using fixed random seeds, confirming identical results across sessions. This ensures that all reported metrics (CV R² = 0.30; OOB MSE = 0.31) are fully reproducible from the uploaded code and data without manual intervention.
 
 ## Overview
 1. This repository contains all materials required to reproduce the analyses reported in “A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy”
