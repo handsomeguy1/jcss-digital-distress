@@ -14,8 +14,8 @@ This repository contains the complete data, code, and documentation to reproduce
 cd jcss-digital-distress
 
 2. Create the conda environment
-a. conda env create -f environment.yml
-b. conda activate jcss-distress
+2.1. conda env create -f environment.yml
+2.2. conda activate jcss-distress
 
 3. Run the full pipeline
 a. python scripts/01_preprocess.py
