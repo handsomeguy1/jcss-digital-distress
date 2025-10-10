@@ -60,9 +60,9 @@ The OLS model identifies key linear predictors of depressive affect; the Random 
 }
 
 Future Work
-**Extend framework to longitudinal and cross-cultural datasets.
-**Integrate causal inference and network analysis modules.
-**Explore transfer learning for digital well-being prediction across platforms.
+a. Extend framework to longitudinal and cross-cultural datasets.
+b. Integrate causal inference and network analysis modules.
+c. Explore transfer learning for digital well-being prediction across platforms.
 
 License
 This project is licensed under the MIT License – see the LICENSE file for details.
