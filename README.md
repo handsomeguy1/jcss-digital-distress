@@ -1,13 +1,12 @@
 # JCSS Digital Distress — Reproducible Pipeline
 Digital Distress in the Attention Economy: A Dual-Model Analysis
 Shakir, S. (2025).
-This repository contains the complete data, code, and documentation to reproduce all analyses and figures for the paper, "A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy".
+This repository contains the complete data, code, and documentation to reproduce all analyses and figures for the paper, "A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy". All model parameters and validation metrics were obtained from out-of-sample and out-of-bag evaluations using fixed random seeds to ensure reproducibility. No manual optimization or selective reporting was performed.
 
 ## Overview
-This repository contains all materials required to reproduce the analyses reported in
-“Digital Distress in the Attention Economy: A Dual-Model Analysis.”
-The study integrates Ordinary Least Squares (OLS) regression and a Random Forest model to examine how social comparison, validation-seeking, attentional fluctuation, and sleep disruption predict depressive affect.
-It operationalizes a methodologically pluralist pipeline—combining interpretive transparency with nonlinear discovery.
+1. This repository contains all materials required to reproduce the analyses reported in “A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy”
+2. The study integrates Ordinary Least Squares (OLS) regression and a Random Forest model to examine how social comparison, validation-seeking, attentional fluctuation, and sleep disruption predict depressive affect.
+3. It operationalizes a methodologically pluralist pipeline—combining interpretive transparency with nonlinear discovery.
 
 ## Environment Setup
 1. Clone the repository
@@ -15,16 +14,16 @@ It operationalizes a methodologically pluralist pipeline—combining interpretiv
 cd jcss-digital-distress
 
 2. Create the conda environment
-   conda env create -f environment.yml
-conda activate jcss-distress
+a. conda env create -f environment.yml
+b. conda activate jcss-distress
 
 3. Run the full pipeline
-python scripts/01_preprocess.py
-python scripts/03_ols_baseline.py
-python scripts/04_rf_train_validate.py
-python scripts/05_importance_pdp.py
-python scripts/06_robustness_bootstrap.py
-python scripts/07_subgroup_errors.py
+a. python scripts/01_preprocess.py
+b. python scripts/03_ols_baseline.py
+c. python scripts/04_rf_train_validate.py
+d. python scripts/05_importance_pdp.py
+e. python scripts/06_robustness_bootstrap.py
+f. python scripts/07_subgroup_errors.py
 
 
 ## Pipeline Description
@@ -61,9 +60,9 @@ The OLS model identifies key linear predictors of depressive affect; the Random 
 }
 
 Future Work
-** Extend framework to longitudinal and cross-cultural datasets.
-** Integrate causal inference and network analysis modules.
-** Explore transfer learning for digital well-being prediction across platforms.
+**Extend framework to longitudinal and cross-cultural datasets.
+**Integrate causal inference and network analysis modules.
+**Explore transfer learning for digital well-being prediction across platforms.
 
 License
 This project is licensed under the MIT License – see the LICENSE file for details.
