@@ -5,9 +5,11 @@ All model parameters and validation metrics were obtained from out-of-sample and
 Cross-validation, bootstrap estimation, and Random Forest evaluations were rerun using fixed random seeds, confirming identical results across sessions. This guarantees that all reported metrics (CV R² = 0.30; OOB MSE = 0.31) are fully reproducible from the uploaded code and data without manual intervention.
 
 ## Overview
-#1.This repository includes all materials necessary to reproduce the analyses reported in “A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy.”
-#2. The study integrates Ordinary Least Squares (OLS) regression and a Random Forest model to examine how social comparison, validation-seeking, attentional fluctuation, and sleep disruption predict depressive affect.
-#3. It operationalizes a methodologically pluralist pipeline, combining interpretive transparency with nonlinear discovery.
+1.This repository includes all materials necessary to reproduce the analyses reported in “A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy.
+
+2. The study integrates Ordinary Least Squares (OLS) regression and a Random Forest model to examine how social comparison, validation-seeking, attentional fluctuation, and sleep disruption predict depressive affect.
+   
+3. It operationalizes a methodologically pluralist pipeline, combining interpretive transparency with nonlinear discovery.
 
 ## Environment Setup
 1. Clone the repository
