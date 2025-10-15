@@ -18,7 +18,9 @@ Cross-validation, bootstrap estimation, and Random Forest evaluations were rerun
 cd jcss-digital-distress
 
 2. ### Create the conda environment
+   
 2.1. conda env create -f environment.yml
+
 2.2. conda activate jcss-distress
 
 3. ### Run the full pipeline
