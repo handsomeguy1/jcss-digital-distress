@@ -22,11 +22,17 @@ cd jcss-digital-distress
 2.2. conda activate jcss-distress
 
 3. ### Run the full pipeline
+   
 a. python scripts/01_preprocess.py
+
 b. python scripts/03_ols_baseline.py
+
 c. python scripts/04_rf_train_validate.py
+
 d. python scripts/05_importance_pdp.py
+
 e. python scripts/06_robustness_bootstrap.py
+
 f. python scripts/07_subgroup_errors.py
 
 
