@@ -5,19 +5,19 @@ This repository contains the complete dataset, code, and documentation required 
 All model parameters and validation metrics were obtained from out-of-sample and out-of-bag evaluations using fixed random seeds to ensure reproducibility. No manual optimization or selective reporting was performed. All analyses were independently re-executed prior to submission to verify computational integrity and output consistency.
 Cross-validation, bootstrap estimation, and Random Forest evaluations were rerun using fixed random seeds, confirming identical results across sessions. This guarantees that all reported metrics (CV R² = 0.30; OOB MSE = 0.31) are fully reproducible from the uploaded code and data without manual intervention.
 
-## Overview
+#### Overview
 1. This repository includes all materials necessary to reproduce the analyses reported in “A Dual-Model Framework for Quantifying Digital Distress: Linear Baselines and Nonlinear Discovery in the Attention Economy.
 
 2. The study integrates Ordinary Least Squares (OLS) regression and a Random Forest model to examine how social comparison, validation-seeking, attentional fluctuation, and sleep disruption predict depressive affect.
    
 3. It operationalizes a methodologically pluralist pipeline, combining interpretive transparency with nonlinear discovery.
 
-## Environment Setup
+#### Environment Setup
 1. Clone the repository
    git clone https://github.com/handsomeguy1/jcss-digital-distress.git
 cd jcss-digital-distress
 
-2. ## Create the conda environment
+2. #### Create the conda environment
 2.1. conda env create -f environment.yml
 2.2. conda activate jcss-distress
 
@@ -30,8 +30,8 @@ e. python scripts/06_robustness_bootstrap.py
 f. python scripts/07_subgroup_errors.py
 
 
-## Pipeline Description
-| ## Step | ## Script                       | ## Purpose                                                         | ## Output                                                                |
+#### Pipeline Description
+## | Step | Script                       | Purpose                                                         | Output                                                                |
 | ---- | ---------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |
 | 1    | `01_preprocess.py`           | Minimalist data cleaning and auditing                           | `data/cleaned_social_media.csv`                                       |
 | 2    | `03_ols_baseline.py`         | OLS regression, diagnostics, VIF, coefficient table             | `outputs/ols_coefficients.csv`, `outputs/vif.csv`                     |
@@ -41,7 +41,7 @@ f. python scripts/07_subgroup_errors.py
 | 6    | `07_subgroup_errors.py`      | MAE/RMSE error analysis by gender and relationship status       | `outputs/subgroup_errors.csv`                                         |
 
 
-## Key Results (Replicable)
+#### Key Results (Replicable)
 | ## Metric              | ## Value                                                 |
 | ------------------- | ----------------------------------------------------- |
 | OLS Adjusted R²     | **0.35**                                              |
@@ -50,10 +50,10 @@ f. python scripts/07_subgroup_errors.py
 | Bootstrap Resamples | **300**                                               |
 | Primary Predictors  | Interest fluctuation, social comparison, sleep issues |
 
-## Interpretation
+#### Interpretation
 The OLS model identifies key linear predictors of depressive affect; the Random Forest validates these relationships while uncovering nonlinear thresholds. Together, they reveal that digital distress arises from convergent behavioural loops—attention fragmentation, social comparison, and sleep disruption—rather than single-factor exposure effects.
 
-## Reproducibility & Citation
+#### Reproducibility & Citation
 @software{shakir2025digitaldistress,
   author    = {Shakir, S.},
   title     = {Digital Distress in the Attention Economy: A Dual-Model Analysis},
@@ -63,7 +63,7 @@ The OLS model identifies key linear predictors of depressive affect; the Random 
   doi       = {10.xxxx/zenodo.xxxxxx}
 }
 
-## Future Work
+#### Future Work
 
 a. Extend framework to longitudinal and cross-cultural datasets.
 
@@ -71,10 +71,10 @@ b. Integrate causal inference and network analysis modules.
 
 c. Explore transfer learning for digital well-being prediction across platforms.
 
-## License
+#### License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-Contact
-## Shuja Shakir
+####Contact
+#### Shuja Shakir
 Department of Political Science, Maharashtra, India
 📧 shujashakir@gmail.com
