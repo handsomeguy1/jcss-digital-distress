@@ -1,4 +1,4 @@
-## JCSS Digital Distress — Reproducible Pipeline
+## JTBS Digital Distress — Reproducible Pipeline
 Shakir, S. (2025). Digital Distress in the Attention Economy: A Dual-Model Analysis.
 
 This repository contains the complete dataset, code, and documentation required to reproduce all analyses and figures for the paper, “Predicting Digital Distress: Attentional Fluctuation, Social Comparison, and Sleep Disruption in the Attention Economy.”
